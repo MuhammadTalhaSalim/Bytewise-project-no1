@@ -1,0 +1,73 @@
+body{
+    background-color: #f3e5d8;
+    font-family: sans-serif;
+}
+h2{
+    font-family: young serif;
+    color:#5e1b1b;
+}
+h1{
+    font-family: young serif;
+}
+img {
+    width: 37rem;
+    height: 15rem;
+    border-radius: 15px;
+}
+.main{
+    padding: 40px 50px 100px 50px;
+    background-color: white;
+    margin: 120px 300px 200px 300px;
+    height: 240vh;
+    border-radius: 15px;
+}
+
+span{
+    font-weight: bold;
+    color:black;
+}
+.preperation-time{
+    background-color: #f3e5d8;
+    padding: 18px;
+    border-radius: 15px;
+}
+.preperation-time h4{
+    color:#4c0077 
+}
+
+.Nutrition table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.Nutrition td {
+    padding: 10px 0;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+}
+
+.Nutrition td:first-child {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.Nutrition td:last-child {
+    padding-right: 20px;
+    color:#5e1b1b;
+    font-weight: bold;
+}
+@media screen and (max-width: 480px) {
+    .main {
+        height: 570vh;
+         margin: 0;
+    }
+    img{
+    width: 17rem;
+    height: 10rem;
+    }
+  }
+
+  
